@@ -1,0 +1,30 @@
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: gray;
+}
+
+.header {
+    width: 100%;
+    color: aqua;
+    text-align: center;
+}
+
+.name {
+    font-size: 30px;
+    font-weight: 900;
+    color: red;
+    cursor: pointer;
+}
+
+.name:hover {
+    color: blueviolet;
+    transition: all .5s ease-in-out;
+}
+
+.article {
+    font-size: 24px;
+    color: blue;
+    text-decoration: underline;
+}
+
